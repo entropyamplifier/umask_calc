@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-# encoding: UTF-8
 
 # checking arg exist
 if ARGV.length < 1 # no args
