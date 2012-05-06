@@ -8,7 +8,7 @@ fi
 
 prep_uma=`printf "$1" | sed -e 's/\(.\{3\}\).*/\1/' | sed -e 's/[^0-7]*//g' | sed -e 's/\(.\)/ \1/g'`
 
-# "inverse" hash need for convert umask value for next "inverse AND" operation
+# "inverse" function need for convert umask value for next "inverse AND" operation
 # checking arg correction
 inv_dec_bin_con()
 {
